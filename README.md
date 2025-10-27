@@ -99,6 +99,7 @@ Para acessar rotas protegidas, é necessário enviar o token no header:
 Authorization: Bearer <seu_token>
 
 📬 Exemplos de Requisições (HTTPie)
+
 🧍‍♂️ Criar usuário
 http POST :3001/users name="Jonathan Alves" email="jonathan@email.com" password="123456"
 
