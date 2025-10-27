@@ -59,36 +59,16 @@ Criação de Payment Intents
 
 Redirecionamento automático após pagamento
 
-📁 Estrutura do Projeto
-devburger-api/
-│
-├── src/
-│   ├── app/
-│   │   ├── controllers/        # Lógica de negócios (User, Product, Order, etc.)
-│   │   ├── middlewares/        # Autenticação e validação
-│   │   ├── models/             # Modelos Sequelize
-│   │   ├── schemas/            # Schemas MongoDB
-│   │   └── utils/              # Funções auxiliares
-│   │
-│   ├── config/                 # Configurações (upload, stripe, banco)
-│   ├── database/               # Conexão com Postgres e MongoDB
-│   ├── routes.js               # Definição de rotas
-│   ├── app.js                  # Configuração principal do Express
-│   └── server.js               # Inicialização do servidor
-│
-├── .env.example                # Exemplo de variáveis de ambiente
-├── package.json
-└── README.md
 
 ⚡ Instalação e Execução
+
 1️⃣ Clone o repositório
 git clone https://github.com/seuusuario/devburger-api.git
 cd devburger-api
 
 2️⃣ Instale as dependências
 yarn install
-# ou
-npm install
+
 
 3️⃣ Configure o ambiente
 
@@ -123,18 +103,18 @@ Authorization: Bearer <seu_token>
 http POST :3001/users name="Jonathan Alves" email="jonathan@email.com" password="123456"
 
 🔐 Login e obter token
-http POST :3001/sessions email="jonathan@email.com" password="123456"
+http POST :3001/sessions email="usuario@email.com" password="123456"
 
 
 Resposta:
 
 {
   "user": {
-    "id": "3118f9bf-7466-4506-9520-07902fa7f34d",
-    "name": "Jonathan Alves",
+    "id": "3118f9cf-7466-4506-9520-07902fa7f34d",
+    "name": "Usuario-Nome",
     "admin": true
   },
-  "accessToken": "eyJhbGciOiJIUzI1..."
+  "accessToken": "eyJhbGdiOiJIUzI1..."
 }
 
 🍔 Criar produto (com imagem)
@@ -158,8 +138,9 @@ Authorization:"Bearer <seu_token>"
 
 Desenvolvido por Jonathan Alves
 💼 LinkedIn
+https://www.linkedin.com/in/jonathan-constantino/
 
-📧 jonathanalvesdev@gmail.com
+📧 jho-alv@hotmail.com.com
 
 ⭐ Contribuição
 
