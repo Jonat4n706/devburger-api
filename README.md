@@ -101,7 +101,7 @@ Authorization: Bearer <seu_token>
 📬 Exemplos de Requisições (HTTPie)
 
 🧍‍♂️ Criar usuário
-http POST :3001/users name="Jonathan Alves" email="jonathan@email.com" password="123456"
+http POST :3001/users name="Username" email="usuario@email.com" password="123456"
 
 🔐 Login e obter token
 http POST :3001/sessions email="usuario@email.com" password="123456"
