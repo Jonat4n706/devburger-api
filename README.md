@@ -137,6 +137,7 @@ Authorization:"Bearer <seu_token>"
 🧠 Autor
 
 Desenvolvido por Jonathan Alves
+
 💼 LinkedIn
 https://www.linkedin.com/in/jonathan-constantino/
 
