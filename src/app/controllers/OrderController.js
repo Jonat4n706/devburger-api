@@ -42,7 +42,7 @@ class OrderController {
           name: product.name,
           price: product.price,
           category: product.category.name,
-          url: `http://localhost:3001/product-file/${this.path}`,
+          url: `http://localhost:3001/product-file/${product.path}`,
           quantity: item.quantity,
         };
       })
