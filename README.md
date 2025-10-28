@@ -50,25 +50,10 @@ Criação de Payment Intents
 
 Redirecionamento automático após pagamento
 
-📁 Estrutura do Projeto
+⚡ Instalação e Execução
 
-devburger-api/
-│
-├── src/
-│   ├── app/
-│   │   ├── controllers/    # Lógica de negócio (User, Product, Order, etc)
-│   │   ├── middlewares/    # Autenticação e validação
-│   │   ├── models/         # Modelos Sequelize (Postgres)
-│   │   ├── schemas/        # Schemas MongoDB
-│   │   └── utils/          # Funções auxiliares
-│   │
-│   ├── config/             # Configurações (upload, stripe, banco)
-│   ├── database/           # Conexão com Postgres e MongoDB
-│   ├── routes.js           # Rotas da aplicação
-│   ├── app.js              # Configuração do Express
-│   └── server.js           # Inicialização do servidor
-│
-├── .env.example
-├── package.json
-└── README.md
+1️⃣ Clonar o repositório
+git clone https://github.com/seuusuario/devburger-api.git
+cd devburger-api
+
 
