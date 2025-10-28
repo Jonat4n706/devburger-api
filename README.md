@@ -14,3 +14,22 @@ API completa desenvolvida em Node.js, responsável por gerenciar o backend do pr
 | 💳 Pagamentos     | Stripe                               
 | ⚙️ Ambiente Dev   | Sucrase + Nodemon                    
 
+⚙️ Funcionalidades Principais
+
+👤 Usuários
+
+Cadastro e login com criptografia de senha
+
+Autenticação via JWT
+
+Controle de acesso (usuário comum / administrador)
+
+🍔 Produtos e Categorias
+
+CRUD completo de produtos
+
+Upload de imagens com Multer
+
+Associação a categorias
+
+Campo para produtos em oferta
